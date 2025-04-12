@@ -1,6 +1,4 @@
 obj-m := rust_module.o
-
-# Point to the kernel build directory
 KDIR := /lib/modules/$(shell uname -r)/build
 PWD := $(shell pwd)
 
