@@ -1,0 +1,6 @@
+/target
+*.o
+*.lib
+*.a
+*.cmd
+*.mod
