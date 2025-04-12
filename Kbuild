@@ -1,6 +1,6 @@
-RUST_MODULE := rust_module
-rust_module-objs := rust_module.o
+obj-m := rust_module.o
+rust_module-objs := rust_module.o rust_module_c_shim.o
 
-# Tell the kernel build system to build a Rust object
-obj-m := $(RUST_MODULE).o
+# Let kernel know this is a Rust source
+RUST_TARGET := rust_module.o
 
