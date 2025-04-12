@@ -1,5 +1,4 @@
 #![no_std]
-#![feature(allocator_api)]
 
 use kernel::prelude::*;
 
